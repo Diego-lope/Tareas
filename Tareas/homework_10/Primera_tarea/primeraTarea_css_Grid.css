@@ -1,0 +1,25 @@
+body {
+    margin: 50px;
+}
+.wrapper {
+    width: 650px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+    
+}
+
+.box {
+    background-color: #545455;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 1.3em;
+    font-weight: 800;
+    text-indent: 1vw;
+    padding-top: 50px;
+    
+}
